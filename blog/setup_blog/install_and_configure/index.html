@@ -5,13 +5,13 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Blog about life, when life is about research." name="description"/>
+<meta content="Install Material for MkDocs, add Markdown extensions, modify layouts and styles." name="description"/>
 <meta content="Research" name="keywords"/>
 <meta content="Pc Ng" name="author"/>
-<link href="https://pc-ng.github.io/programming/python/2021-04-18-flattenRavel/" rel="canonical"/>
+<link href="https://pc-ng.github.io/blog/setup_blog/install_and_configure/" rel="canonical"/>
 <!-- <link rel="icon" href="../../../favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.2"> -->
-<title>Flatten vs Ravel functions in Numpy - Pc's Blog</title>
+<title>Install and configure a blog based on Material for MkDocs - Pc's Blog</title>
 <link href="../../../assets/stylesheets/main.6f955dcd.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.ef6f36e2.min.css" rel="stylesheet"/>
 <meta content="#4cae4f" name="theme-color"/>
@@ -24,9 +24,9 @@
 <script async="" data-ad-client="ca-pub-9658356171910088" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9658356171910088"></script>
 <meta content="website" property="og:type"/>
-<meta content="Pc's Blog - Flatten vs Ravel functions in Numpy" property="og:title"/>
-<meta content="Blog about life, when life is about research." property="og:description"/>
-<meta content="https://pc-ng.github.io/programming/python/2021-04-18-flattenRavel/" property="og:url"/>
+<meta content="Pc's Blog - Install and configure a blog based on Material for MkDocs" property="og:title"/>
+<meta content="Install Material for MkDocs, add Markdown extensions, modify layouts and styles." property="og:description"/>
+<meta content="https://pc-ng.github.io/blog/setup_blog/install_and_configure/" property="og:url"/>
 <meta content="https://pc-ng.github.io/assets/banner.jpg" property="og:image"/>
 <meta content="image/png" property="og:image:type"/>
 <meta content="1080" property="og:image:width"/>
@@ -40,7 +40,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#when-array-is-not-in-c-order">
+<a class="md-skip" href="#1-installation">
           Skip to content
         </a>
 </div>
@@ -64,7 +64,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Flatten vs Ravel functions in Numpy
+              Install and configure
             
           </span>
 </div>
@@ -110,7 +110,7 @@
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../blog/research/">
+<a class="md-tabs__link md-tabs__link--active" href="../../research/">
         Blog
       </a>
 </li>
@@ -125,7 +125,7 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../matlab/">
+<a class="md-tabs__link" href="../../../programming/matlab/">
         Programming
       </a>
 </li>
@@ -155,8 +155,8 @@
         Home
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
         Blog
         <span class="md-nav__icon md-icon"></span>
@@ -168,12 +168,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/research/">
+<a class="md-nav__link" href="../../research/">
         Research
       </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2_2">
         Setup blog
         <span class="md-nav__icon md-icon"></span>
@@ -184,28 +184,89 @@
           Setup blog
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/setup_blog/install_and_configure/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Install and configure
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         Install and configure
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-installation">
+    1. Installation
+  </a>
+<nav aria-label="1. Installation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-python">
+    1.1. Python
+  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/setup_blog/markdown_syntax/">
+<a class="md-nav__link" href="#12-material-for-mkdocs">
+    1.2. Material for MkDocs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13-visual-studio-code">
+    1.3. Visual Studio Code
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-configuration">
+    2. Configuration
+  </a>
+<nav aria-label="2. Configuration" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21-markdown-extensions">
+    2.1. Markdown extensions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22-mkdocs-plugins">
+    2.2. MkDocs plugins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23-theme-configs">
+    2.3. Theme configs
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../markdown_syntax/">
         Markdown syntax
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/setup_blog/mkdocs_plugins/">
+<a class="md-nav__link" href="../mkdocs_plugins/">
         MkDocs plugins
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/setup_blog/customize_theme/">
+<a class="md-nav__link" href="../customize_theme/">
         Customize theme
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/setup_blog/print_to_pdf/">
+<a class="md-nav__link" href="../print_to_pdf/">
         Print to PDF
       </a>
 </li>
@@ -213,7 +274,7 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../blog/tools/jupyter_lab_virtual_env/2021-05-13-jupyterLabVirtualEnv/">
+<a class="md-nav__link" href="../../tools/jupyter_lab_virtual_env/2021-05-13-jupyterLabVirtualEnv/">
         Adding Virtual Environment to Jupyter Lab
       </a>
 </li>
@@ -270,8 +331,8 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" id="__nav_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5">
         Programming
         <span class="md-nav__icon md-icon"></span>
@@ -283,12 +344,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../matlab/">
+<a class="md-nav__link" href="../../../programming/matlab/">
         Matlab
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" id="__nav_5_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" id="__nav_5_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5_2">
         Python
         <span class="md-nav__icon md-icon"></span>
@@ -299,31 +360,13 @@
           Python
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Flatten vs Ravel functions in Numpy
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../programming/python/2021-04-18-flattenRavel/">
         Flatten vs Ravel functions in Numpy
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#when-array-is-not-in-c-order">
-    When array is not in C-order
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../histogramVis/">
+<a class="md-nav__link" href="../../../programming/python/histogramVis/">
         Visualize Data Distribution with Histogram
       </a>
 </li>
@@ -349,83 +392,83 @@
 </div>
 <div style="padding: 0.4rem 0.6rem;">
 <div class="tag-cloud">
-<a class="tag" href="https://pc-ng.github.io/tags/#Seaborn">
-<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">Seaborn
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Matplotlib">
-<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">Matplotlib
-            </span>
-<sup class="tag-count">1</sup>
-</a>
 <a class="tag" href="https://pc-ng.github.io/tags/#BLE">
-<span class="tag-name" style="font-size:0.75rem;color:DarkViolet;">BLE
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Python">
-<span class="tag-name" style="font-size:1.0rem;color:DarkCyan;">Python
-            </span>
-<sup class="tag-count">2</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#mkdocs">
-<span class="tag-name" style="font-size:1.5rem;color:DarkSlateBlue;">mkdocs
-            </span>
-<sup class="tag-count">4</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#contact tracing">
-<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">contact tracing
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Algorithm">
-<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">Algorithm
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Bluetooth">
-<span class="tag-name" style="font-size:0.75rem;color:DarkOliveGreen;">Bluetooth
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#markdown">
-<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">markdown
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#research">
-<span class="tag-name" style="font-size:0.75rem;color:DarkSlateBlue;">research
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Matlab">
-<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">Matlab
+<span class="tag-name" style="font-size:0.75rem;color:DarkOrange;">BLE
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#Virtual Environment">
-<span class="tag-name" style="font-size:0.75rem;color:DarkGreen;">Virtual Environment
+<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">Virtual Environment
             </span>
 <sup class="tag-count">1</sup>
 </a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Numpy">
-<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">Numpy
+<a class="tag" href="https://pc-ng.github.io/tags/#Seaborn">
+<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">Seaborn
             </span>
 <sup class="tag-count">1</sup>
 </a>
-<a class="tag" href="https://pc-ng.github.io/tags/#python">
-<span class="tag-name" style="font-size:1.0rem;color:DarkViolet;">python
+<a class="tag" href="https://pc-ng.github.io/tags/#contact tracing">
+<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">contact tracing
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#markdown">
+<span class="tag-name" style="font-size:0.75rem;color:DarkCyan;">markdown
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#jinja">
+<span class="tag-name" style="font-size:0.75rem;color:DarkMagenta;">jinja
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Matplotlib">
+<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">Matplotlib
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Matlab">
+<span class="tag-name" style="font-size:0.75rem;color:DarkOrange;">Matlab
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Bluetooth">
+<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">Bluetooth
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Python">
+<span class="tag-name" style="font-size:1.0rem;color:DarkGreen;">Python
             </span>
 <sup class="tag-count">2</sup>
 </a>
-<a class="tag" href="https://pc-ng.github.io/tags/#jinja">
-<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">jinja
+<a class="tag" href="https://pc-ng.github.io/tags/#python">
+<span class="tag-name" style="font-size:1.0rem;color:DarkGreen;">python
+            </span>
+<sup class="tag-count">2</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#research">
+<span class="tag-name" style="font-size:0.75rem;color:DarkOrange;">research
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#mkdocs">
+<span class="tag-name" style="font-size:1.5rem;color:DarkOrange;">mkdocs
+            </span>
+<sup class="tag-count">4</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Algorithm">
+<span class="tag-name" style="font-size:0.75rem;color:DarkOrchid;">Algorithm
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#JupyterLab">
-<span class="tag-name" style="font-size:0.75rem;color:DarkViolet;">JupyterLab
+<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">JupyterLab
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Numpy">
+<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">Numpy
             </span>
 <sup class="tag-count">1</sup>
 </a>
@@ -445,9 +488,52 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#when-array-is-not-in-c-order">
-    When array is not in C-order
+<a class="md-nav__link" href="#1-installation">
+    1. Installation
   </a>
+<nav aria-label="1. Installation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-python">
+    1.1. Python
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12-material-for-mkdocs">
+    1.2. Material for MkDocs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13-visual-studio-code">
+    1.3. Visual Studio Code
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-configuration">
+    2. Configuration
+  </a>
+<nav aria-label="2. Configuration" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21-markdown-extensions">
+    2.1. Markdown extensions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22-mkdocs-plugins">
+    2.2. MkDocs plugins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23-theme-configs">
+    2.3. Theme configs
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -460,83 +546,83 @@
 </div>
 <div style="padding: 0.4rem 0.6rem;">
 <div class="tag-cloud">
-<a class="tag" href="https://pc-ng.github.io/tags/#jinja">
-<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">jinja
+<a class="tag" href="https://pc-ng.github.io/tags/#Python">
+<span class="tag-name" style="font-size:1.0rem;color:DarkOrange;">Python
             </span>
-<sup class="tag-count">1</sup>
+<sup class="tag-count">2</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#contact tracing">
-<span class="tag-name" style="font-size:0.75rem;color:DarkViolet;">contact tracing
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Seaborn">
-<span class="tag-name" style="font-size:0.75rem;color:DarkOrange;">Seaborn
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Virtual Environment">
-<span class="tag-name" style="font-size:0.75rem;color:DarkViolet;">Virtual Environment
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Matlab">
-<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">Matlab
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#mkdocs">
-<span class="tag-name" style="font-size:1.5rem;color:DarkOrchid;">mkdocs
-            </span>
-<sup class="tag-count">4</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#python">
-<span class="tag-name" style="font-size:1.0rem;color:DarkCyan;">python
-            </span>
-<sup class="tag-count">2</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Algorithm">
-<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">Algorithm
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Numpy">
-<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">Numpy
-            </span>
-<sup class="tag-count">1</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Python">
-<span class="tag-name" style="font-size:1.0rem;color:DarkBlue;">Python
-            </span>
-<sup class="tag-count">2</sup>
-</a>
-<a class="tag" href="https://pc-ng.github.io/tags/#research">
-<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">research
+<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">contact tracing
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#Bluetooth">
-<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">Bluetooth
+<span class="tag-name" style="font-size:0.75rem;color:DarkGreen;">Bluetooth
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#BLE">
-<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">BLE
+<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">BLE
             </span>
 <sup class="tag-count">1</sup>
 </a>
-<a class="tag" href="https://pc-ng.github.io/tags/#markdown">
-<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">markdown
+<a class="tag" href="https://pc-ng.github.io/tags/#mkdocs">
+<span class="tag-name" style="font-size:1.5rem;color:DarkGreen;">mkdocs
+            </span>
+<sup class="tag-count">4</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#jinja">
+<span class="tag-name" style="font-size:0.75rem;color:DarkGreen;">jinja
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#research">
+<span class="tag-name" style="font-size:0.75rem;color:DarkOrange;">research
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Seaborn">
+<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">Seaborn
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Virtual Environment">
+<span class="tag-name" style="font-size:0.75rem;color:DarkBlue;">Virtual Environment
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Matlab">
+<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">Matlab
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#Matplotlib">
-<span class="tag-name" style="font-size:0.75rem;color:DarkGoldenrod;">Matplotlib
+<span class="tag-name" style="font-size:0.75rem;color:DarkCyan;">Matplotlib
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#python">
+<span class="tag-name" style="font-size:1.0rem;color:DarkOrchid;">python
+            </span>
+<sup class="tag-count">2</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Algorithm">
+<span class="tag-name" style="font-size:0.75rem;color:DarkSlateGray;">Algorithm
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#markdown">
+<span class="tag-name" style="font-size:0.75rem;color:DarkMagenta;">markdown
             </span>
 <sup class="tag-count">1</sup>
 </a>
 <a class="tag" href="https://pc-ng.github.io/tags/#JupyterLab">
-<span class="tag-name" style="font-size:0.75rem;color:DarkRed;">JupyterLab
+<span class="tag-name" style="font-size:0.75rem;color:DarkTurquoise;">JupyterLab
+            </span>
+<sup class="tag-count">1</sup>
+</a>
+<a class="tag" href="https://pc-ng.github.io/tags/#Numpy">
+<span class="tag-name" style="font-size:0.75rem;color:DarkViolet;">Numpy
             </span>
 <sup class="tag-count">1</sup>
 </a>
@@ -549,16 +635,17 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <div class="page-cover">
-<h1 class="page-title">Flatten vs Ravel functions in Numpy</h1>
+<h1 class="page-title">Install and configure a blog based on Material for MkDocs</h1>
+<p class="page-description">Install Material for MkDocs, add Markdown extensions, modify layouts and styles.</p>
 <p>
-<a class="tag" href="https://pc-ng.github.io/tags/#Numpy">
-<span class="tag-name" style="color:DarkBlue;">
-                        #Numpy
+<a class="tag" href="https://pc-ng.github.io/tags/#python">
+<span class="tag-name" style="color:DarkTurquoise;">
+                        #python
                     </span>
 </a>
-<a class="tag" href="https://pc-ng.github.io/tags/#Python">
-<span class="tag-name" style="color:DarkOrchid;">
-                        #Python
+<a class="tag" href="https://pc-ng.github.io/tags/#mkdocs">
+<span class="tag-name" style="color:DarkViolet;">
+                        #mkdocs
                     </span>
 </a>
 </p>
@@ -572,77 +659,166 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#when-array-is-not-in-c-order">
-    When array is not in C-order
+<a class="md-nav__link" href="#1-installation">
+    1. Installation
+  </a>
+<nav aria-label="1. Installation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-python">
+    1.1. Python
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12-material-for-mkdocs">
+    1.2. Material for MkDocs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13-visual-studio-code">
+    1.3. Visual Studio Code
   </a>
 </li>
 </ul>
 </nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-configuration">
+    2. Configuration
+  </a>
+<nav aria-label="2. Configuration" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21-markdown-extensions">
+    2.1. Markdown extensions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22-mkdocs-plugins">
+    2.2. MkDocs plugins
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23-theme-configs">
+    2.3. Theme configs
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
 </div>
-<p>Dealing with multidimensional array with Numpy is quite intuitive. 
-While doing an element-wise multipilication computation with Numpy is basically more easier compared to using a classical programming with a <code>for</code> loop, understanding the internal operation of Numpy is useful to improve the computation efficiency when dealing with arrays consists of millions of elements.</p>
-<p>In this post, we will look at the differences between flatten and ravel functions.
-Both functions provide the same one-dimensional output by stacking up a multidimensional inputs. 
-The key difference is how the memory is copied during the process.
-Let's say we would like to flatten an 1000*1000 dimensional array, using <code>flatten</code> will returns a copy, whereas using <code>ravel</code> will returns a view.
-The computation time of both functions is shown as follows:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
-
-<span class="c1"># create a 1000*1000 dimensional array</span>
-<span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Size of arr: </span><span class="si">{</span><span class="n">arr</span><span class="o">.</span><span class="n">shape</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<h2 id="1-installation">1. Installation<a class="headerlink" href="#1-installation" title="Permanent link">⚓︎</a></h2>
+<h3 id="11-python">1.1. Python<a class="headerlink" href="#11-python" title="Permanent link">⚓︎</a></h3>
+<p>Download and install <a href="https://www.python.org">Python 3</a>.</p>
+<h3 id="12-material-for-mkdocs">1.2. Material for MkDocs<a class="headerlink" href="#12-material-for-mkdocs" title="Permanent link">⚓︎</a></h3>
+<p>There are some <a href="https://jamstack.org/generators/">static site generators</a> written in Python: MkDocs, Pelican, Sphinx, etc. MkDocs is the most popular one.</p>
+<p><a href="https://www.mkdocs.org/">MkDocs</a> is a fast and simple engine to build project documentation. Content source files are written in <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, and configured with a single <a href="https://yaml.org/">YAML</a> config file.</p>
+<p><a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> is a popular theme for MkDocs. It has a simple UI with <a href="http://www.materialui.co/colors">Material color</a> palettes. It also brings more features, has flexible settings, and makes a clear layout for printing. </p>
+<div class="admonition note notitle">
+<p class="admonition-title"> </p>
+<p>Refer to the official homepage of Material for MkDocs.Refer to the official homepage of Material for MkDocs.Refer to the official homepage of Material for MkDocs.Refer to the official homepage of Material for MkDocs.Refer to the official homepage of Material for MkDocs</p>
+</div>
+<p>Start a new project:</p>
+<div class="highlight"><pre><span></span><code><span class="k">mkdir</span> CodeInsideOut
+<span class="k">cd</span> CodeInsideOut
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Size of arr: (1000, 1000)
+<p>Create project's <a href="https://docs.python.org/3/library/venv.html">virtual environment</a>:</p>
+<div class="highlight"><pre><span></span><code>python -m venv .venv
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">time</span>
-<span class="n">arr_flatten</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">flatten</span><span class="p">()</span>
+<blockquote>
+<p>Why should use virtual environment? Read more here.</p>
+</blockquote>
+<p>Activate the environment:</p>
+<div class="highlight"><pre><span></span><code>.venv\Scripts\activate.bat
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Wall time: 3.95 ms
+<p>Then update the <code>pip</code> and <code>setuptools</code>:</p>
+<div class="highlight"><pre><span></span><code>python -m pip install -U pip setuptools
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">time</span>
-<span class="n">arr_ravel</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+<blockquote>
+<p><code>-U</code> or <code>--upgrade</code> will upgrade the package if it is already installed</p>
+</blockquote>
+<p>Then install <em>Material for Mkdocs</em>:</p>
+<div class="highlight"><pre><span></span><code>pip install -U mkdocs-material
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Wall time: 0 ns
+<p>Finally, bring up the base of the site</p>
+<div class="highlight"><pre><span></span><code>mkdocs new .
 </code></pre></div>
-<p>Obviously, <code>ravel</code> is much more faster than <code>flatten</code>. Such a performance speedup can be significant when leading with very large arrays. 
-We can also check that both <code>ravel</code> and <code>flatten</code> functions returns the same output.</p>
-<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array_equal</span><span class="p">(</span><span class="n">arr_flatten</span><span class="p">,</span> <span class="n">arr_ravel</span><span class="p">))</span>
+<p>This will create the following structure</p>
+<div class="highlight"><pre><span></span><code>.
+├─ mkdocs.yml    <span class="c1"># The configuration file</span>
+└─ docs/         <span class="c1"># Other markdown pages</span>
+    ├─ index.md  <span class="c1"># The documentation homepage</span>
+    └─ ...       <span class="c1"># Other files</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>True
+<p>Change the theme to <em>material</em> in the project configuration file <em>mkdocs.yml</em>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">theme</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">material</span>
 </code></pre></div>
-<p>The difference is that there is not copy operation with <code>ravel</code>. For <code>flatten</code>, the output is a copy of the original array; wheareas for <code>ravel</code>, the output is just a view of original array, in which whatever the changes in the second array will affect the change in the original array.
-To understand the difference between a copy and a view, consider the memory block of these three arrays.</p>
-<div class="highlight"><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Memory address to store arr: </span><span class="si">{</span><span class="n">arr</span><span class="o">.</span><span class="n">__array_interface__</span><span class="p">[</span><span class="s2">"data"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Memory address to store arr_flatten: </span><span class="si">{</span><span class="n">arr_flatten</span><span class="o">.</span><span class="n">__array_interface__</span><span class="p">[</span><span class="s2">"data"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">'Memory address to store arr_ravel: </span><span class="si">{</span><span class="n">arr_ravel</span><span class="o">.</span><span class="n">__array_interface__</span><span class="p">[</span><span class="s2">"data"</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s1">'</span><span class="p">)</span>
+<p>That's it.  Start a local server with :</p>
+<div class="highlight"><pre><span></span><code>mkdocs serve
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Memory address to store arr: 2394595090496
-Memory address to store arr_flatten: 2394603155520
-Memory address to store arr_ravel: 2394595090496
+<p>and preview the site at <a href="http://localhost:8000">http://localhost:8000</a>.</p>
+<p>To publish the site, build it:</p>
+<div class="highlight"><pre><span></span><code>mkdocs build
 </code></pre></div>
-<p>We can see that <code>flatten</code> uses copy the array to a new memory block; whreas <code>ravel</code> simply creates a view to the original array.</p>
-<h2 id="when-array-is-not-in-c-order">When array is not in C-order<a class="headerlink" href="#when-array-is-not-in-c-order" title="Permanent link">⚓︎</a></h2>
-<p>Note that <code>ravel</code> will also do a copy operation when dealing with array that is not in the C-order. 
-For example, when we consider the array in Fortrain-order, as in <code>a.T</code>, <code>ravel</code> actually returns a flattened version with C-order. </p>
-<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">time</span>
-<span class="n">arr_ravel2</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
+<p>then copy all the content in the <em>site</em> folder to the website root folder.</p>
+<h3 id="13-visual-studio-code">1.3. Visual Studio Code<a class="headerlink" href="#13-visual-studio-code" title="Permanent link">⚓︎</a></h3>
+<p>Install <a href="https://code.visualstudio.com/">Visual Studio Code</a> - a lightweight but powerful source code editor. It well supports users to write code, documents, notes.</p>
+<p>Useful extensions for writing in Markdown and editing HTML template:</p>
+<ul>
+<li>
+<p><strong>Code Spell Checker</strong>: catch common spelling errors</p>
+</li>
+<li>
+<p><strong>Markdown All in One</strong>: keyboard shortcuts, auto completions, list and task list, table formatter</p>
+</li>
+<li>
+<p><strong>Markdown Paste</strong>: paste image, links from clipboard</p>
+</li>
+<li>
+<p><strong>Jinja</strong>: highlight Jinja syntax (HTML template)</p>
+</li>
+<li>
+<p><strong>Git History</strong>: view history edits from git log</p>
+</li>
+</ul>
+<h2 id="2-configuration">2. Configuration<a class="headerlink" href="#2-configuration" title="Permanent link">⚓︎</a></h2>
+<h3 id="21-markdown-extensions">2.1. Markdown extensions<a class="headerlink" href="#21-markdown-extensions" title="Permanent link">⚓︎</a></h3>
+<p>Original Markdown syntax just renders some basic elements. Therefore many extensions are made to extend Markdown syntax:</p>
+<ul>
+<li>
+<p><a href="https://python-markdown.github.io/extensions/">Official Markdown extensions</a> has more syntaxes to make Tables, Table of Content,  Abbreviations, Admonitions, Codeblocks.</p>
+</li>
+<li>
+<p><a href="https://facelessuser.github.io/pymdown-extensions/">PyMdown Extensions</a> has a list of useful extensions to replace the official ones which eventually produce much better formats such as Nested Code Bocks, Tabs, Progress Bars, Tasks.</p>
+</li>
+<li>
+<p><a href="https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions">3<sup>rd</sup> party extensions</a> which extend the Python Markdown APIs to deal with Math/Latex, Diagrams, Advanced formats, and more.</p>
+</li>
+</ul>
+<p>Material for MkDocs comes with both Official Python Markdown extensions and PyMdown Extensions, but those are not fully activated. To enable an extension, just need to declare its name in the project config file <em>mkdocs.yml</em> under <code>markdown_extensions</code> field. For example:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">markdown_extensions</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">admonition</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>Wall time: 0 ns
+<p>Refer to <a href="../markdown_syntax/">Markdown Syntax</a> to know the list of extensions and their usage.</p>
+<h3 id="22-mkdocs-plugins">2.2. MkDocs plugins<a class="headerlink" href="#22-mkdocs-plugins" title="Permanent link">⚓︎</a></h3>
+<p>To extend the abilities of MkDocs, there are some plugins can be installed. Check the list at the <a href="https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins">official MkDocs plugin list</a>.</p>
+<p>To enable an extension, just need to declare its name in the project config file <em>mkdocs.yml</em> under <code>plugins</code> field. For example:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">search</span> <span class="c1"># built-in search engine</span>
 </code></pre></div>
-<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">time</span>
-<span class="n">arr_ravel2T</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">ravel</span><span class="p">()</span>
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>Wall time: 7.07 ms
-</code></pre></div>
-<p>When dealing with the array in different order, we can specify the order with <code>ravel</code> isntead.</p>
-<div class="highlight"><pre><span></span><code><span class="o">%%</span><span class="n">time</span>
-<span class="n">arr_ravel3T</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">order</span> <span class="o">=</span> <span class="s1">'F'</span><span class="p">)</span>
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>Wall time: 6.03 ms
-</code></pre></div>
-<p>By specifying the order directly within the <code>ravel</code> function, the computation time is slightly faster than doing <code>ravel</code> directly on <code>arr.T</code>.</p>
-<div class="highlight"><pre><span></span><code>
-</code></pre></div>
+<p>Refer to <a href="../mkdocs_plugins/">MkDocs plugins</a> to know the list of plugins and their usage.</p>
+<h3 id="23-theme-configs">2.3. Theme configs<a class="headerlink" href="#23-theme-configs" title="Permanent link">⚓︎</a></h3>
+<p>Material for MkDocs comes with some configs to change the look of the site. Follow the official homepage of <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> to learn how to configure or override the theme with more information.</p>
+<p>List of modifications:</p>
+<ul>
+<li>Theme settings</li>
+<li>Overridden templates</li>
+<li>Additional styles</li>
+</ul>
+<p>Refer to <a href="../customize_theme/">Customize theme</a> to know the list of modifications in details.</p>
 </article>
 </div>
 </div>
@@ -652,7 +828,7 @@ For example, when we consider the array in Fortrain-order, as in <code>a.T</code
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a class="md-footer__link md-footer__link--prev" href="../../matlab/" rel="prev">
+<a class="md-footer__link md-footer__link--prev" href="../../research/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
 </div>
@@ -661,17 +837,17 @@ For example, when we consider the array in Fortrain-order, as in <code>a.T</code
 <span class="md-footer__direction">
                 Previous
               </span>
-              Matlab
+              Research
             </div>
 </div>
 </a>
-<a class="md-footer__link md-footer__link--next" href="../histogramVis/" rel="next">
+<a class="md-footer__link md-footer__link--next" href="../markdown_syntax/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Visualize Data Distribution with Histogram
+              Markdown syntax
             </div>
 </div>
 <div class="md-footer__button md-icon">
