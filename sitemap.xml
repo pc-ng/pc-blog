@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://pc-ng.github.io/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/artificial_intelligence/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/artificial_intelligence/timeseries/dtw/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/biometric_signals/aboutheartrate/aboutheartrate/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/biometric_signals/aboutecg/aboutecg/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/blog/research/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pc-ng.github.io/blog/tools/diplaying-image-with-opencv-inside-jupyterlab/Displaying-Image-with-OpenCV-inside-JupyterLab/</loc>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/blog/tools/jupyter_lab_virtual_env/2021-05-13-jupyterLabVirtualEnv/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/bluetooth/bluetooth/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/bluetooth/contact_tracing/2021-04-15-contactTracing/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/programming/matlab/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/programming/python/2021-04-18-flattenRavel/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/programming/python/histogramVis/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pc-ng.github.io/tags/</loc>
-     <lastmod>2021-05-24</lastmod>
+     <lastmod>2021-05-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
